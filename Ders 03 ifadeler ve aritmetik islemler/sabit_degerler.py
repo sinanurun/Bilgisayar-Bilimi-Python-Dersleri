@@ -4,4 +4,3 @@ toplam = deger1 + deger2
 print(deger1, "+", deger2, "=", toplam)
 toplam = 5
 print(toplam)
-

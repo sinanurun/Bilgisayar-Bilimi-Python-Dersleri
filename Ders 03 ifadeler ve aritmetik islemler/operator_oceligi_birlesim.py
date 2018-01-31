@@ -1,0 +1,8 @@
+print(8**8)
+print(5+9-6)
+print(5*6)
+print(5/6)
+print(5*6+3)
+print(5*6/2)
+print(5/6/3)
+print(5//3*2)
