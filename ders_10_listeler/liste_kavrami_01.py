@@ -1,0 +1,10 @@
+def main():
+ print("Lütfen 5 adet sayı giriniz: ")
+ n1=float(input("1. sayı: "))
+ n2=float(input("2. sayı: "))
+ n3=float(input("3. sayı: "))
+ n4=float(input("4. sayı: "))
+ n5=float(input("5. sayı: "))
+ print("Girdiğiniz Sayılar :",n1,n2,n3,n4,n5,sep=" - ")
+ print("Ortalama :",(n1+n2+n3+n4+n5)/5)
+main()
