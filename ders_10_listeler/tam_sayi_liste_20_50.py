@@ -10,7 +10,7 @@ def AsalKontrol(n):
     if n % geciciDeger == 0:
         return False
     geciciDeger += 2
-    return True
+ return True
 def AsalAralikBelirleme(ilk, son):
  for deger in range(ilk, son + 1):
     if AsalKontrol(deger):
