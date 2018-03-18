@@ -10,10 +10,12 @@ imlec.execute("CREATE TABLE IF NOT EXISTS kitap_bilgisi (kitap_adi,kitap_yazari,
 #kitap bilgisi adında içerisine bir tablşo oluşturuyoruz ilgili alanlar ile birlikte
 # hata almamak için IF NOT EXISTS varlık kontrolü
 
-kitap_girisi = "INSERT INTO kitap_bilgisi VALUES ('Suç ve Ceza', 'Dostoyevski', 'evet','*****')"
-kitap_girisi_2="INSERT INTO kitap_bilgisi VALUES ('Beyaz Diş', 'Jack LONDON', 'evet','***')"
+kitap_girisi = "INSERT INTO kitap_bilgisi VALUES ('Suç ve Ceza', 'Dostoyevski', 'hayır','*****')"
+#kitap_girisi_2="INSERT INTO kitap_bilgisi VALUES ('Beyaz Diş', 'Jack LONDON', 'evet','***')"
 imlec.execute(kitap_girisi)
-imlec.execute(kitap_girisi_2)
+#imlec.execute(kitap_girisi_2)
+imlec.execute("INSERT INTO kitap_bilgisi VALUES ('Beyaz Diş', 'Jack LONDON', 'evet','***')")
+imlec.execute("INSERT INTO kitap_bilgisi VALUES ('Yunan Mitolojisi', 'Anna ve Louie', 'hayır','****')")
 
 vt.commit() # veri tabanına hafızadaki bilgiyi kaydetmek için
 vt.close() # veri tabanını kapatmak için

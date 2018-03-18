@@ -6,7 +6,7 @@ vt = sql.connect('kitaplik.sqlite') # bağlanacak olduğumuz veri tabanının ad
 
 imlec = vt.cursor() # veri tabanı üzerinde işlem yapmak için imleç oluşturuyoruz
 
-imlec.execute("CREATE TABLE IF NOT EXISTS ozel (id INTEGER PRIMARY KEY  AUTOINCREMENT, kitap_adi,kitap_yazari,okunma_durumu,begeni)")
+imlec.execute("CREATE TABLE IF NOT EXISTS ozel (kitap_id INTEGER PRIMARY KEY  AUTOINCREMENT, kitap_adi,kitap_yazari,okunma_durumu,begeni)")
 #kitap bilgisi adında içerisine bir tablşo oluşturuyoruz ilgili alanlar ile birlikte
 # hata almamak için IF NOT EXISTS varlık kontrolü
 
