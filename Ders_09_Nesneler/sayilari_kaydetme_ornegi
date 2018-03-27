@@ -3,7 +3,7 @@ def Listeleme(dosyaAdi):
 # Parametre olarak gelen dosyada bulunan kayıtları listeleme.
 # Okumak için dosyanın açılması
     with open(dosyaAdi) as f: # f adında bir dosya nesnesi oluşturuldu
-        print( f._CHUNK_SIZE)
+        print(f._CHUNK_SIZE)
         for satir in f: # Satır satır okuma işlemi için döngü kuruldu
             print(int(satir)) # int veri türüne dönüştürme ve ekrana yazdırma
 def Kaydet(dosyaAdi):

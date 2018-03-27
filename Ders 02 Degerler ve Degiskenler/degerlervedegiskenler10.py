@@ -1,6 +1,6 @@
-x = 28793.54836
+x = 58793.54836
 print(x)
-print(round(x))
+print("sayının kendisi",round(x))
 print(round(x,0))
 print(round(x,1))
 print(round(x,2))
