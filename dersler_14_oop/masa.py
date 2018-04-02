@@ -5,3 +5,7 @@ class masa():
     def masa_ozellikleri(self):
         print("ayak sayısı",self.ayak)
         print("yukseklik",self.yukseklik)
+"""kare = masa(5,65)
+print(kare.ayak)
+print(kare.yukseklik)
+kare.masa_ozellikleri()"""

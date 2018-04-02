@@ -1,11 +1,8 @@
 from siyam import *
 from kedi import *
 mavis = kedi()
-
 print("mavişin ayak sayısı :",mavis.ayak)
-
 serafettin = kedi()
-
 print("şerafettin ayak sayısı :", serafettin.ayak)
 
 

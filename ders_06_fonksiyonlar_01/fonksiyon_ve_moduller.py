@@ -1,4 +1,6 @@
-from math import sqrt, log10, cos
+from math import *
 print(sqrt(16))
 print(log10(56))
-print(cos(45))
+print(cos(radians(60)))
+input()
+print(dir(math))

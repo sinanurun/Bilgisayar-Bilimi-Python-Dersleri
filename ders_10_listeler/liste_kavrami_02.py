@@ -6,4 +6,5 @@ def main():
     sayi=float(input("Lütfen " +str(i+1)+ ". sayıyı giriniz: "))
     toplam+=sayi
  print("Ortalama :",toplam/girilecekSayıAdeti)
+ print(sayi)
 main()

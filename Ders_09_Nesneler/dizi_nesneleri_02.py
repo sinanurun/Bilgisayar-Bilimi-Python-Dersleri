@@ -1,4 +1,4 @@
-kelime = "ABCD"
+kelime = "AbCD"
 karakter = input("bir karakter giriniz")
 print(kelime.rjust(10, "*"))
 print(kelime.rjust(3, "*"))

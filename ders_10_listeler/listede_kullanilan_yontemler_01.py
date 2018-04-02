@@ -15,3 +15,5 @@ y_liste =liste
 print(y_liste)
 y_liste.sort()
 print(y_liste)
+print(y_liste.pop(2))
+print(y_liste)

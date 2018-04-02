@@ -1,0 +1,4 @@
+bu birinci satır
+bu ikinci satır
+üç oldu
+bu da sana dört

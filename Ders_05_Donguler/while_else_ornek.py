@@ -7,6 +7,7 @@ while sayac < 5:
     if sayi < 0:
         print("Negatif sayılar kabul edilmemektedir. Çıkılıyor")
         break
+
     sayac += 1
     toplam += sayi
 else:

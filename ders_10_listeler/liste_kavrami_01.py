@@ -7,4 +7,5 @@ def main():
  n5=float(input("5. sayı: "))
  print("Girdiğiniz Sayılar :",n1,n2,n3,n4,n5,sep=" - ")
  print("Ortalama :",(n1+n2+n3+n4+n5)/5)
+ print("1. sayı = ",n1)
 main()
