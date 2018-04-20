@@ -1,4 +1,4 @@
-print("Merhaba, Dünya!")
+print("Merhaba, Cyber Warrior!")
 
 Toplam = 0
 DersSaati = 3
