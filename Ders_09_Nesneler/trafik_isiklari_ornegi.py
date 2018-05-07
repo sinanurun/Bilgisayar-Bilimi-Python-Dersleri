@@ -1,8 +1,15 @@
 # "Değiştir" butonuna basıldığında trafik ışıklarını sırasıyla yakan program
 from tkinter import Tk, Canvas
 from tkinter.ttk import Button, Frame
-def ButonaBasildiginda(): # Her bir tıklamada ışıkların sırasıyla yanması
+from time import sleep
+def can():
+    print(renk)
+    print("yandı")
+    return ButonaBasildiginda()
+def ButonaBasildiginda():
+    # Her bir tıklamada ışıkların sırasıyla yanması
     global renk
+    print(renk)
     if renk == "red":
         renk = "green"
         canvas.itemconfigure(kirmiziLamba, fill="black") # Kırmızı ışık kapatılıyor
@@ -15,6 +22,8 @@ def ButonaBasildiginda(): # Her bir tıklamada ışıkların sırasıyla yanmas�
         renk = "red"
         canvas.itemconfigure(sariLamba, fill="black") # Sarı ışık kapatılıyor
         canvas.itemconfigure(kirmiziLamba, fill="red") # Kırmızı ışık yanıyor
+    sleep(2)
+    return can()
 # Kullanılacak değişkenlerin tanımlanması
 renk = "red" # Açık olarak gelecek ilk trafik ışığı renk
 root = Tk() # Ana Pencere"nin oluşturulması
@@ -27,6 +36,7 @@ canvas = Canvas(frame, width=150, height=300)
 # Trafik ışıkları oluşturuluyor, zemin rengi gri olarak ayarlanıyor
 canvas.create_rectangle(50, 20, 150, 280, fill="gray")
 # Kırmızı Lamba
+# kirmiziLamba = canvas.create_oval(x0,y0,x1,y1, options)
 kirmiziLamba = canvas.create_oval(70, 40, 130, 100, fill="red")
 # Sarı Lamba
 sariLamba = canvas.create_oval(70, 120, 130, 180, fill="black")

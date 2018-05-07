@@ -2,8 +2,6 @@ from tkinter import *
 
 pencere = Tk()
 kasa = []
-
-
 def alan_guncelle(sayi):
     icerik = hesap_alani.get() + sayi
     hesap_alani.delete(0, END)

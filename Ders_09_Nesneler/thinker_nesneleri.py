@@ -15,4 +15,5 @@ b = Button(root)
 b.configure(background="yellow", text="Tıklama Sayısı = 0",command=update)
 # Ekrana buton nesnesi oluşturuluyor
 b.pack()
+root.config(bg='red')
 root.mainloop()
